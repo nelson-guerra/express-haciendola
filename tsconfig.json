@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+      "outDir": "./dist",
+      "allowJs": true,
+      "strictNullChecks": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "resolveJsonModule": true,
+      "importHelpers": false,
+      "sourceMap": true,
+      "declaration": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictPropertyInitialization": false
+   },
+   "extends": "@tsconfig/node20/tsconfig.json",
+   "include": ["src/**/*"],
+   "exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}
