@@ -12,5 +12,5 @@ Crear el archivo .env en base al archivo env.example y cambiar los parametros, s
 La documentación de los endpoints está hecho en swagger
 
 ```bash
-GET http://localhost:8000/docs/
+http://localhost:8000/docs/
 ```
