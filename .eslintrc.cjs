@@ -18,5 +18,15 @@ module.exports = {
       'space-in-parens': 'error',
       'no-multiple-empty-lines': 'error',
       'prefer-const': 'error',
+      'no-unused-vars': [
+         'error',
+         {
+            vars: 'all',
+            args: 'after-used',
+            caughtErrors: 'all',
+            ignoreRestSiblings: false,
+            reportUsedIgnorePattern: false,
+         },
+      ],
    },
 };
